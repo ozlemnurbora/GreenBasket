@@ -62,7 +62,6 @@ Open your terminal/command prompt directly inside the green_basket project folde
 2. Fetch Package Dependencies:
 ```bash
 flutter pub get
-Verify Device Connectivity (Physical Device or Android Emulator):
 ```
 3. Verify Device Connectivity (Physical Device or Android Emulator):
 ```bash
