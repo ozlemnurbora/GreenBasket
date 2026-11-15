@@ -51,23 +51,25 @@ green_basket/
 │   ├── services/     # Decoupled infrastructure logic (Database Seeders, Firestore Streams)
 │   ├── widgets/      # Modular, immutable UI fragments (Custom Refreshers, Global AppBars)
 │   └── main.dart     # Application bootstrap and core middleware config
-
+```
 
 Local Installation & Development Deployment
-To spin up a local development instance of GreenBasket from the project root directory, execute the following orchestration sequence in your terminal:
+To spin up a local development instance of GreenBasket from the project root directory, execute the following steps:
 
-Navigate to the Project Root Folder:
+1. Navigate to the Project Root Folder:
 Open your terminal/command prompt directly inside the green_basket project folder.
 
-De-duplicate and Fetch Package Dependencies:
-
-Bash
+2. Fetch Package Dependencies:
+```bash
 flutter pub get
 Verify Device Connectivity (Physical Device or Android Emulator):
-
-Bash
+```
+3. Verify Device Connectivity (Physical Device or Android Emulator):
+```bash
 flutter devices
-Execute Target Runtime Compilation:
+```
 
-Bash
+4. Execute Target Runtime Compilation:
+```bash
 flutter run
+```
